@@ -30,10 +30,23 @@ git clone https://github.com/iliasdmtrp/claude-greek-voice.git
 pip install -r claude-greek-voice/greek-voice/requirements.txt
 ```
 
-Κλειδί στο `.env` (δωρεάν Groq από https://console.groq.com/keys):
+Κλειδί στο `.env` (δίπλα στο script ή στη ρίζα του project):
 ```
 GROQ_API_KEY=gsk_...
 ```
+
+> **BYOK (Bring Your Own Key):** το εργαλείο δεν έρχεται με κλειδί — βάζεις το δικό
+> σου, δωρεάν. Έτσι το κόστος/όριο είναι δικό σου και το κλειδί σου μένει ιδιωτικό.
+
+### Πώς παίρνεις δωρεάν κλειδί Groq (1–2 λεπτά)
+
+1. Πήγαινε στο **https://console.groq.com/keys** και συνδέσου (Google/GitHub/email — χωρίς κάρτα).
+2. Πάτα **Create API Key**, δώσ' του ένα όνομα (π.χ. `greek-voice`), **Submit**.
+3. Αντίγραψε το κλειδί (ξεκινά με `gsk_...`) — **φαίνεται μόνο μία φορά**.
+4. Φτιάξε ένα αρχείο `.env` και βάλε μέσα: `GROQ_API_KEY=gsk_....`
+
+Εναλλακτικά, αν έχεις OpenAI: `OPENAI_API_KEY=sk-...` (πληρωμένο, ~$0.006/λεπτό).
+Το Groq free tier αρκεί άνετα για προσωπική χρήση.
 
 Ως Claude Code plugin (interactive `claude`):
 ```
