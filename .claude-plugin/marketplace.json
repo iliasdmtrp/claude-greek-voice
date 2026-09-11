@@ -1,0 +1,11 @@
+{
+  "name": "claude-greek-voice",
+  "owner": { "name": "iliasdmtrp" },
+  "plugins": [
+    {
+      "name": "greek-voice",
+      "source": "./greek-voice",
+      "description": "Ελληνική φωνητική υπαγόρευση που γράφει κατευθείαν στο chat (F9), μέσω Groq/OpenAI Whisper."
+    }
+  ]
+}

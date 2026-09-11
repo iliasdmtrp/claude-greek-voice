@@ -1,0 +1,12 @@
+{
+  "name": "greek-voice",
+  "version": "0.1.0",
+  "description": "Ελληνική φωνητική υπαγόρευση (speech-to-text) που γράφει κατευθείαν στο ενεργό πλαίσιο κειμένου, μέσω Groq/OpenAI Whisper. Παρακάμπτει το ενσωματωμένο μικρόφωνο που δεν έχει ελληνικά.",
+  "author": { "name": "iliasdmtrp" },
+  "commands": [
+    "./commands/voice.md",
+    "./commands/voice-stop.md",
+    "./commands/voice-config.md",
+    "./commands/voice-autostart.md"
+  ]
+}
